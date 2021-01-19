@@ -4,6 +4,7 @@ A test process for analyzing the impact of an experiment.
 **Lars Tinnefeld**, 2021-01-23
 
 ![Gauss](https://cdn.pixabay.com/photo/2020/04/11/10/05/chart-5029714_960_720.png)
+
 Image by [Maky Orel](https://pixabay.com/users/maky_orel-436253/) on Pixabay
 
 ## Table of content
