@@ -1,5 +1,5 @@
 # A/B Testing Case study: Homepage Experiment
-A notebook to perform a test process for analyzing the impact of an experiment.
+A test process for analyzing the impact of an experiment.
 
 **Lars Tinnefeld**, 2021-01-23
 
@@ -7,12 +7,12 @@ A notebook to perform a test process for analyzing the impact of an experiment.
 Image by [Maky Orel](https://pixabay.com/users/maky_orel-436253/) on Pixabay
 
 ## Table of content
-1. [About Olist's (Business understanding)](#business_understanding)
-2. [Business objectives](#objectives)
-3. [Approach](#approach)
-4. [Data](#data)
-5. [Data preparation](#preparation)
-6. [Data Modelling](#modelling)
-7. [Evaluation](#evaluation)
-8. [References and links](#references)
+1. [Inroduction](#business_understanding)
+2. [Objectives](#objectives)
+3. [Data](#data)
+4. [Building a user funnel](#funnel)
+6. [Deciding on metrics](#metrics)
+7. [Calculating the experiment size](#sizing)
+8. [Evaluating the experiment results](#evaluation)
 
+## Introduction <a name="business_understanding"></a>
