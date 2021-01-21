@@ -44,3 +44,9 @@ The expected steps a typical user takes from inital visit to a license purchase:
 - Purchase license
 
 ## Deciding on metrics <a name="metrics"></a>
+The metrics to base the statistical evaluation on are:
+- Number of cookies that hit the homepage (one for each visitor)
+- Number of downloads of the software
+- Number of sold licenses
+
+All above metrics will are summarized by day. The provided data is already the result of this decision.
