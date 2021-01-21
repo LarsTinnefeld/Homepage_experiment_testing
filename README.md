@@ -1,4 +1,4 @@
-# A/B Testing Case study: Homepage Experiment
+# A/B Testing Case Study: Homepage Experiment
 **A test process to analyze the impact of an experiment.**
 
 By Lars Tinnefeld, 2021-01-23
