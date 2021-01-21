@@ -35,3 +35,5 @@ The expected steps a typical user takes from inital visit to a license purchase:
 - After 7-day trial, software takes user to license-purchase page
 - Purchase license
 
+
+## Building a funnel <a name="funnel"></a>
