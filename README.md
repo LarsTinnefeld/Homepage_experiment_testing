@@ -24,7 +24,15 @@ The goal of this case study is to analyze if the webpage upgrade has enough impa
 
 ## Data <a name="data"></a>
 The data were provided by Udacity.
-...
+| Field | Dtype | Records | Description |
+| --- | --- | --- | --- |
+| Day | int64 | 29 non-null | Day of data collection period |
+| Control Cookies | int64 | 29 non-null | Collected Cookies at unchanged webpage |
+| Control Downloads	 | int64 | 29 non-null | Software downloads through unchanged webpage |
+| Control Licenses	 | int64 | 29 non-null | License purchases through unchanged webpage |
+| Experiment  Cookies | int64 | 29 non-null | Collected Cookies at new webpage |
+| Experiment  Downloads	 | int64 | 29 non-null | Software downloads through new webpage |
+| Experiment  Licenses	 | int64 | 29 non-null | License purchases through new webpage |
 
 ## Building a funnel <a name="funnel"></a>
 The expected steps a typical user takes from inital visit to a license purchase:
