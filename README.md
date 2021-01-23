@@ -51,4 +51,4 @@ The metrics to base the statistical evaluation on are:
 
 All above metrics will are summarized by day. The provided data is already the result of this decision.
 
-## Calculating the sample size <a name="metrics"></a>
+## Calculating the sample size <a name="sizing"></a>
