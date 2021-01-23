@@ -13,7 +13,7 @@ By Lars Tinnefeld, 2021-01-23
 3. [Data](#data)
 4. [Building a funnel](#funnel)
 6. [Deciding on metrics](#metrics)
-7. [Calculating the experiment size](#sizing)
+7. [Calculating the sample size](#sizing)
 8. [Evaluating the experiment results](#evaluation)
 
 ## Introduction <a name="business_understanding"></a>
@@ -50,3 +50,5 @@ The metrics to base the statistical evaluation on are:
 - Number of sold licenses
 
 All above metrics will are summarized by day. The provided data is already the result of this decision.
+
+## Calculating the sample size <a name="metrics"></a>
