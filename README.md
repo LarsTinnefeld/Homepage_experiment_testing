@@ -59,8 +59,9 @@ Visual check:
 ![Distribution_chart](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/Dist_bar.png?raw=true)
 
 Looks good, validating statistically:
+![Invariant_metric](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/Inv_metr_code.PNG?raw=true)
 
-
+P-value is good. Sample is balanced enough to perform the analysis.
 
 ## Calculating the sample size <a name="sizing"></a>
 
