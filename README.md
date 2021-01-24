@@ -51,6 +51,8 @@ The metrics to base the statistical evaluation on are:
 
 All above metrics will are summarized by day. The provided data is already the result of this decision.
 
+![Distribution_chart](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/Dist_bar.png?raw=true)
+
 ## Calculating the sample size <a name="sizing"></a>
 
 
