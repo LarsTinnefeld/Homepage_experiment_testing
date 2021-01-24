@@ -62,10 +62,10 @@ A dataset which contains many more instances of the positive target group of the
 Visual check:
 ![Distribution_chart](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/Dist_bar.png?raw=true)
 
-Looks good, validating statistically:
+Statistical validation:
 ![Invariant_metric](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/Inv_metr_code.PNG?raw=true)
 
-P-value is good. Sample is balanced enough to perform the analysis.
+Sample is balanced enough to perform the analysis.
 
 ## Calculating the sample size <a name="sizing"></a>
 
