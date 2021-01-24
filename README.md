@@ -98,6 +98,6 @@ The result shows a Z-score of far over 7, which results in a clear indicator tha
 
 The result shows a rate of under one sigma, which is by far not enough to prove a significant change caused by the experiment.
 
-**Conclusion:
+**Conclusion:**
 The provided data is suitable to perform the analysis. The sample size, and therefore days of data collecting, was calculated.
 The evaluation has two contradicting results. The increased download rate suggests that the experiment had an impact on the visitors, the license purchase rate on the other side can not prove that impact. Because the prime objective to raise attension of the visitors to become aware of the 7-day trial page it is suggested to deploy the upgraded webpage.
