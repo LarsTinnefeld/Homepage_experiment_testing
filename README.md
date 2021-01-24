@@ -21,7 +21,7 @@ By Lars Tinnefeld, 2021-01-23
 A software company is looking for ways to increase the purchase rate of their product. Currently, there is a 7-day trial where users can use the software for free. After these seven days the user would need to pay for a license to further use the application. One suggestion to archieve this is to upgrade the homepage by emphasizing the 7-day-trial advertisement more prominently, so that there is a lower chance that visitors of the webpage are overlooking this option.
 
 ## Objectives <a name="objectives"></a>
-The goal of this case study is to analyze if the webpage upgrade has enough impact and statistical significance to call a success.
+The goal of this case study is to analyze if the webpage upgrade has enough impact and statistical significance to call a success. Another objective is to estimate how long the sample gathering must be in order to have enough sample sizes to validate the test results.
 
 ## Data <a name="data"></a>
 The data were provided by Udacity.
