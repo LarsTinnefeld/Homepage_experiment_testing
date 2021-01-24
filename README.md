@@ -50,7 +50,11 @@ The metrics to base the statistical evaluation on are:
 - Number of downloads of the software
 - Number of sold licenses
 
-All above metrics will are summarized by day. The provided data is already the result of this decision.
+For the A/B testing rates were introduced:
+- Download rate = Number of downloads / Number of cookies
+- License purchase rate = Number of licenses / Number of cookies
+
+These rates were generated for the experiment- and control group.
 
 ## Invariance metrics <a name="invariance"></a>
 A dataset which contains many more instances of the positive target group of the negative instances (or vice versa) will potentially lead to wrong results in the analysis. This is why a check is performed.
