@@ -21,7 +21,7 @@ By Lars Tinnefeld, 2021-01-23
 A software company is looking for ways to increase the purchase rate of their product. Currently, there is a 7-day trial where users can use the software for free. After these seven days the user would need to pay for a license to further use the application. One suggestion to archieve this is to upgrade the homepage by emphasizing the 7-day-trial advertisement more prominently, so that there is a lower chance that visitors of the webpage are overlooking this option.
 
 ## Objectives <a name="objectives"></a>
-The goal of this case study is to analyze if the webpage upgrade has enough impact and statistical significance to call a success. Another objective is to estimate how long the sample gathering must be in order to have enough sample sizes to validate the test results.
+One objective is to estimate how long the sample gathering must be in order to have enough sample sizes to validate the test results. The other goal of this case study is to analyze if the webpage upgrade has enough impact and statistical significance to call a success and therefore deploy the change.
 
 ## Data <a name="data"></a>
 The data were provided by Udacity.
@@ -68,13 +68,22 @@ Statistical validation:
 Sample is balanced enough to perform the analysis.
 
 ## Calculating the sample size <a name="sizing"></a>
+- Visitors per day: 3250
+- Current downloads per day: 520
+- Current licenses per day: 65
 
-Sample size based on download rate
+- Target downloads per day: 570
+- Target licenses per day: 75
+
+- Type I error rate: 0.05
+- With Bonferroni correction: 0.025
+- Power: 80% (Type II error: 20%)
+
+Sample size based on download rate: 6 days (5.55)
+Sample size based on license purchase rate: 21 days (21.44)
+
+## Evaluating the experiment results <a name="evaluation"></a>
 
 ![Download_rate](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/Downl_sample.PNG?raw=true)
 
-Sample size based on license rate
-
 ![License_rate](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/License_sample.PNG?raw=true)
-
-## Evaluating the experiment results <a name="evaluation"></a>
