@@ -86,13 +86,13 @@ Sample size based on license purchase rate: 21 days
 The experiment was executed and data was collected.
 Following analysis is based on the statistic of the experiment data.
 
-**Evaluation based on download rate:
+**Evaluation based on download rate:**
 
 ![Download_rate](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/Downl_sample.PNG?raw=true)
 
 The result shows a Z-score of far over 7, which results in a clear indicator that the observed experiment statistic is outside the probability range of the Null hypothesis (control group data) which means the result is significant and the experiment changed the download rate.
 
-**Evaluation based on license purchase rate:
+**Evaluation based on license purchase rate:**
 
 ![License_rate](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/License_sample.PNG?raw=true)
 
