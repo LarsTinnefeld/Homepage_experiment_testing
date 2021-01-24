@@ -13,8 +13,9 @@ By Lars Tinnefeld, 2021-01-23
 3. [Data](#data)
 4. [Building a funnel](#funnel)
 6. [Deciding on metrics](#metrics)
-7. [Calculating the sample size](#sizing)
-8. [Evaluating the experiment results](#evaluation)
+7. [Invariant Metrics](#invariance)
+8. [Calculating the sample size](#sizing)
+9. [Evaluating the experiment results](#evaluation)
 
 ## Introduction <a name="business_understanding"></a>
 A software company is looking for ways to increase the purchase rate of their product. Currently, there is a 7-day trial where users can use the software for free. After these seven days the user would need to pay for a license to further use the application. One suggestion to archieve this is to upgrade the homepage by emphasizing the 7-day-trial advertisement more prominently, so that there is a lower chance that visitors of the webpage are overlooking this option.
@@ -50,6 +51,16 @@ The metrics to base the statistical evaluation on are:
 - Number of sold licenses
 
 All above metrics will are summarized by day. The provided data is already the result of this decision.
+
+## Invariance metrics <a name="invariance"></a>
+A dataset which contains many more instances of the positive target group of the negative instances (or vice versa) will potentially lead to wrong results in the analysis. This is why a check is performed.
+
+Visual check:
+![Distribution_chart](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/Dist_bar.png?raw=true)
+
+Looks good, validating statistically:
+
+
 
 ## Calculating the sample size <a name="sizing"></a>
 
