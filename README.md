@@ -69,4 +69,5 @@ Sample is balanced enough to perform the analysis.
 
 ## Calculating the sample size <a name="sizing"></a>
 
+### Sample size based on download rate
 
