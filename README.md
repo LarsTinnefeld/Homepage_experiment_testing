@@ -79,8 +79,8 @@ Sample is balanced enough to perform the analysis.
 - With Bonferroni correction: 0.025
 - Power: 80% (Type II error: 20%)
 
-Sample size based on download rate: 6 days (5.55)
-Sample size based on license purchase rate: 21 days (21.44)
+Sample size based on download rate: 6 days
+Sample size based on license purchase rate: 21 days
 
 ## Evaluating the experiment results <a name="evaluation"></a>
 
