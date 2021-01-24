@@ -18,10 +18,10 @@ By Lars Tinnefeld, 2021-01-23
 9. [Evaluating the experiment results](#evaluation)
 
 ## Introduction <a name="business_understanding"></a>
-A software company is looking for ways to increase the purchase rate of their product. Currently, there is a 7-day trial where users can use the software for free. After these seven days the user would need to pay for a license to further use the application. One suggestion to archieve this is to upgrade the homepage by emphasizing the 7-day-trial advertisement more prominently, so that there is a lower chance that visitors of the webpage are overlooking this option.
+A software company is looking for ways to increase the purchase rate of their product. Currently, there is a 7-day trial where users can use the software for free. After these seven days the user would need to pay for a license to further use the application. One suggestion to archieve this is to upgrade the homepage by emphasizing the 7-day-trial advertisement more prominently, so that there is a lower chance that visitors of the webpage are overlooking this option. The exercise was part of the Udacity Data Science Nanodegree program.
 
 ## Objectives <a name="objectives"></a>
-One objective is to estimate how long the sample gathering must be in order to have enough sample sizes to validate the test results. The other goal of this case study is to analyze if the webpage upgrade has enough impact and statistical significance to call a success and therefore deploy the change.
+One objective is to estimate how long the sample gathering must be in order to have enough sample sizes to validate the test results. The other goal of this case study is to analyze if the webpage upgrade has enough impact and statistical significance to increase the downloads and license purchases. A significant increase would mean a success of the updated webpage and the modification should be deployed.
 
 ## Data <a name="data"></a>
 The data were provided by Udacity.
@@ -83,7 +83,17 @@ Sample size based on download rate: 6 days
 Sample size based on license purchase rate: 21 days
 
 ## Evaluating the experiment results <a name="evaluation"></a>
+The experiment was executed and data was collected.
+Following analysis is based on the statistic of the experiment data.
 
+**Evaluation based on download rate:
 ![Download_rate](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/Downl_sample.PNG?raw=true)
+The result shows a Z-score of far over 7, which results in a clear indicator that the observed experiment statistic is outside the probability range of the Null hypothesis (control group data) which means the result is significant and the experiment changed the download rate.
 
+**Evaluation based on license purchase rate:
 ![License_rate](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/License_sample.PNG?raw=true)
+The result shows a rate of under one sigma, which is by far not enough to prove a significant change caused by the experiment.
+
+**Conclusion:
+The provided data is suitable to perform the analysis. The sample size, and therefore days of data collecting, was calculated.
+The evaluation has two contradicting results. The increased download rate suggests that the experiment had an impact on the visitors, the license purchase rate on the other side can not prove that impact. Because the prime objective to raise attension of the visitors to become aware of the 7-day trial page it is suggested to deploy the upgraded webpage.
