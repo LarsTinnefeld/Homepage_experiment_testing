@@ -72,3 +72,7 @@ Sample is balanced enough to perform the analysis.
 ### Sample size based on download rate
 ![Download_rate](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/Downl_sample.PNG?raw=true)
 
+### Sample size based on license rate
+![License_rate](https://github.com/LarsTinnefeld/Homepage_experiment_testing/blob/main/License_sample.PNG?raw=true)
+
+## Evaluating the experiment results <a name="evaluation"></a>
